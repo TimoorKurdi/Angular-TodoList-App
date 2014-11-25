@@ -10,7 +10,7 @@
   <h3>Angular ToDoList App</h3>
 
   <div ng-controller="AppCtrl">
-      <form name="item" ng-submit="addToDo()">
+      <form name="todolist" ng-submit="addToDo()">
       <input type="text" name="newtodo" ng-model="newToDo" required />
       <button ng-disabled="item.$invalid">Click me!</button>
       </form>
