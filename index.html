@@ -14,6 +14,7 @@
       <input type="text" name="newtodo" ng-model="newToDo" required />
       <button ng-disabled="item.$invalid">Click me!</button>
       </form>
+
       <button ng-click="clearCompleted()">Clear Completed</button>
       <ul>
           <li ng-repeat="todo in todos">
